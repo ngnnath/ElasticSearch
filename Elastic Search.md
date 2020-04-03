@@ -17,7 +17,13 @@ Réponse : Code HTTP et une JSON (sauf pour le HEAD)
 
 Indexation de la donnée
 tous les données de chaque champ sont indexés.
-indexation sur 
+concatenation des données sur une chaine stocké dans un champ appelé _all.
+
+Lorsque un document est ajouté:
+_index : Où le document est stocké.
+_type : Représente le mapping entre les champs et leurs types.
+_id : L’identificant unique du document.
+
 
 ### Installation d'ElasticSearch
 [(https://www.elastic.co/fr/downloads/)](https://www.elastic.co/fr/downloads/)
@@ -93,7 +99,7 @@ FILTER
 [https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html)
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2MzA2MDQxLDMwNTY3NzIyMCwtMTczMT
-U3MzQ3NywtMTA2Nzc3Mzk2LDE4NDY2NTMyMTcsMTU3NjIwNjI2
-MSwtMzgyNTA3MTY5XX0=
+eyJoaXN0b3J5IjpbLTEzOTQzMTQ4NTcsMzA1Njc3MjIwLC0xNz
+MxNTczNDc3LC0xMDY3NzczOTYsMTg0NjY1MzIxNywxNTc2MjA2
+MjYxLC0zODI1MDcxNjldfQ==
 -->
