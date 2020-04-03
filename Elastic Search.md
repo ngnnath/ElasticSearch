@@ -52,8 +52,25 @@ Reponse
 
     {"_index":"megacorp","_type":"employee","_id":"1","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":0,"_primary_term":1}
 
-Le
+GET
+
+    curl -XGET 'localhost :9200/ megacorp / employee /1? pretty '
+Reponse
+    {
+      "_index" : "megacorp",
+      "_type" : "employee",
+      "_id" : "1",
+      "_version" : 1,
+      "_seq_no" : 0,
+      "_primary_term" : 1,
+      "found" : true,
+      "_source" : {
+        "first_name" : "Nath",
+        "last_name" : "Ngn"
+      }
+    }
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDMzNTEzNzQsLTEwNjc3NzM5NiwxOD
+eyJoaXN0b3J5IjpbLTE3MzE1NzM0NzcsLTEwNjc3NzM5NiwxOD
 Q2NjUzMjE3LDE1NzYyMDYyNjEsLTM4MjUwNzE2OV19
 -->
