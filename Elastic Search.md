@@ -4,6 +4,11 @@ Elasticsearch est un serveur utilisant Lucene pour l'indexation et la recherche 
 
 ### Installation d'ElasticSearch
 [(https://www.elastic.co/fr/downloads/)](https://www.elastic.co/fr/downloads/)
+
+Lancement d'ElasticSearch
+
+    ./bin/elasticsearch
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDc0NzgxNiwtMzgyNTA3MTY5XX0=
+eyJoaXN0b3J5IjpbMTU3NjIwNjI2MSwtMzgyNTA3MTY5XX0=
 -->
