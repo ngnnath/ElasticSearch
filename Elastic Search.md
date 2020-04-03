@@ -70,10 +70,16 @@ Reponse
         "last_name" : "Ngn"
       }
     }
+    
+    SEARCH
+
     curl -XGET 'localhost:9200/megacorp/employee/_search?pretty'
-Renvoie tous documents dont le t
+Renvoie tous documents dont le type est employee.
+
+    curl -XGET 'localhost:9200/megacorp/employee/_search?q=last_name:Smith&pretty'
+Recherche toutes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1NjA2NjI4LC0xNzMxNTczNDc3LC0xMD
+eyJoaXN0b3J5IjpbMzYyOTA2OTc4LC0xNzMxNTczNDc3LC0xMD
 Y3NzczOTYsMTg0NjY1MzIxNywxNTc2MjA2MjYxLC0zODI1MDcx
 NjldfQ==
 -->
