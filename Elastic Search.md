@@ -55,6 +55,7 @@ Reponse
 GET
 
     curl -XGET 'localhost :9200/ megacorp / employee /1? pretty '
+    
 Reponse
     {
       "_index" : "megacorp",
@@ -69,8 +70,10 @@ Reponse
         "last_name" : "Ngn"
       }
     }
-
+    curl -XGET 'localhost:9200/megacorp/employee/_search?pretty'
+Renvoie tous documents dont le t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE1NzM0NzcsLTEwNjc3NzM5NiwxOD
-Q2NjUzMjE3LDE1NzYyMDYyNjEsLTM4MjUwNzE2OV19
+eyJoaXN0b3J5IjpbNjg1NjA2NjI4LC0xNzMxNTczNDc3LC0xMD
+Y3NzczOTYsMTg0NjY1MzIxNywxNTc2MjA2MjYxLC0zODI1MDcx
+NjldfQ==
 -->
