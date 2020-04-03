@@ -2,6 +2,8 @@
 ## ElasticSearch
 Elasticsearch est un serveur utilisant Lucene pour l'indexation et la recherche des données. Il fournit un moteur de recherche distribué et multi-entité à travers une interface REST.
 
+Le contenu de chaque doc
+
 ### Installation d'ElasticSearch
 [(https://www.elastic.co/fr/downloads/)](https://www.elastic.co/fr/downloads/)
 
@@ -31,6 +33,6 @@ Réponse :
 2 appels possible à Elastic Search via deux ports :
 avec Java API sur le port 9300 et Restful API sur le port 9200
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjY1MzIxNywxNTc2MjA2MjYxLC0zOD
-I1MDcxNjldfQ==
+eyJoaXN0b3J5IjpbLTYzNTI4MTEzMiwxODQ2NjUzMjE3LDE1Nz
+YyMDYyNjEsLTM4MjUwNzE2OV19
 -->
