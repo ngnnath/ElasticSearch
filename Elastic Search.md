@@ -43,7 +43,12 @@ Réponse :
       }
 2 appels possible à Elastic Search via deux ports :
 avec Java API sur le port 9300 et Restful API sur le port 9200
+
+PUT 
+
+    curl -XPUT 'localhost:9200/megacorp/employee/1' -H 'Content-Type: application/json' -d '{"first_name":"Nath","last_name":"Ngn"}'
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjc3NzM5NiwxODQ2NjUzMjE3LDE1Nz
-YyMDYyNjEsLTM4MjUwNzE2OV19
+eyJoaXN0b3J5IjpbMTI3ODM2MTMyOCwtMTA2Nzc3Mzk2LDE4ND
+Y2NTMyMTcsMTU3NjIwNjI2MSwtMzgyNTA3MTY5XX0=
 -->
