@@ -83,10 +83,11 @@ FILTER
 
     curl -XGET 'localhost:9200/megacorp/employee/_search?pretty' -d '{"query":{"filtered":{"filter": {"range":{"age":{"gt" : 30}}},"query":{"match":{"last_name":"smith"}}}}}'
    
-    
+    range age supérieur
+    match egale à
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1OTMyMTQwNiwtMTczMTU3MzQ3NywtMT
-A2Nzc3Mzk2LDE4NDY2NTMyMTcsMTU3NjIwNjI2MSwtMzgyNTA3
-MTY5XX0=
+eyJoaXN0b3J5IjpbNDM3MDQxOTIzLC0xNzMxNTczNDc3LC0xMD
+Y3NzczOTYsMTg0NjY1MzIxNywxNTc2MjA2MjYxLC0zODI1MDcx
+NjldfQ==
 -->
