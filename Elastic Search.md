@@ -83,11 +83,13 @@ FILTER
 
     curl -XGET 'localhost:9200/megacorp/employee/_search?pretty' -d '{"query":{"filtered":{"filter": {"range":{"age":{"gt" : 30}}},"query":{"match":{"last_name":"smith"}}}}}'
    
-    range age supérieur
-    match egale à
+ range age supérieur à 
+ match egale à
+ 
+[https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html)
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM3MDQxOTIzLC0xNzMxNTczNDc3LC0xMD
+eyJoaXN0b3J5IjpbMzA1Njc3MjIwLC0xNzMxNTczNDc3LC0xMD
 Y3NzczOTYsMTg0NjY1MzIxNywxNTc2MjA2MjYxLC0zODI1MDcx
 NjldfQ==
 -->
