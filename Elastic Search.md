@@ -98,8 +98,12 @@ FILTER
  
 [https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html)
 	
+Connaitre le type des champs
+
+    curl -XGET 'localhost:9200/megacorp/_mapping/employee?include_type_name=true&pretty'
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQzMTQ4NTcsMzA1Njc3MjIwLC0xNz
-MxNTczNDc3LC0xMDY3NzczOTYsMTg0NjY1MzIxNywxNTc2MjA2
-MjYxLC0zODI1MDcxNjldfQ==
+eyJoaXN0b3J5IjpbLTE0NTM0NzAxNTksLTEzOTQzMTQ4NTcsMz
+A1Njc3MjIwLC0xNzMxNTczNDc3LC0xMDY3NzczOTYsMTg0NjY1
+MzIxNywxNTc2MjA2MjYxLC0zODI1MDcxNjldfQ==
 -->
