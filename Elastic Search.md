@@ -71,7 +71,7 @@ Reponse
       }
     }
     
-   SEARCH
+SEARCH
 
     curl -XGET 'localhost:9200/megacorp/employee/_search?pretty'
 Renvoie tous documents dont le type est employee.
@@ -80,9 +80,13 @@ Renvoie tous documents dont le type est employee.
 Recherche les documents de type employee dont le last_name est égale à smith
 
 FILTER
+
+    curl -XGET 'localhost:9200/megacorp/employee/_search?pretty' -d '{"query":{"filtered":{"filter": {"range":{"age":{"gt" : 30}}},"query":{"match":{"last_name":"smith"}}}}}'
+   
+    
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NTY5MzkwMiwtMTczMTU3MzQ3NywtMT
+eyJoaXN0b3J5IjpbLTU1OTMyMTQwNiwtMTczMTU3MzQ3NywtMT
 A2Nzc3Mzk2LDE4NDY2NTMyMTcsMTU3NjIwNjI2MSwtMzgyNTA3
 MTY5XX0=
 -->
