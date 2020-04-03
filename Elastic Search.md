@@ -6,7 +6,14 @@ Le contenu de chaque document est indexé.
 Le document a un type 
 Les types sont contenu dans un index.
 
-FoncAPI REST 
+Fonctionnement de l'API REST 
+Requête :
+PUT : création ou modification d’un document 
+GET : récupération d’un document 
+HEAD : test si un document existe 
+DELETE : suppression d’un document
+
+Réponse : Code HTT
 
 ### Installation d'ElasticSearch
 [(https://www.elastic.co/fr/downloads/)](https://www.elastic.co/fr/downloads/)
@@ -37,6 +44,6 @@ Réponse :
 2 appels possible à Elastic Search via deux ports :
 avec Java API sur le port 9300 et Restful API sur le port 9200
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNDE1MzE0MCwxODQ2NjUzMjE3LDE1Nz
+eyJoaXN0b3J5IjpbLTE0MTA2MjUxNCwxODQ2NjUzMjE3LDE1Nz
 YyMDYyNjEsLTM4MjUwNzE2OV19
 -->
