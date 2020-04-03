@@ -15,6 +15,10 @@ DELETE : suppression d’un document
 
 Réponse : Code HTTP et une JSON (sauf pour le HEAD)
 
+Indexation de la donnée
+tous les données de chaque champ sont indexés.
+indexation sur 
+
 ### Installation d'ElasticSearch
 [(https://www.elastic.co/fr/downloads/)](https://www.elastic.co/fr/downloads/)
 
@@ -89,7 +93,7 @@ FILTER
 [https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html)
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1Njc3MjIwLC0xNzMxNTczNDc3LC0xMD
-Y3NzczOTYsMTg0NjY1MzIxNywxNTc2MjA2MjYxLC0zODI1MDcx
-NjldfQ==
+eyJoaXN0b3J5IjpbNDc2MzA2MDQxLDMwNTY3NzIyMCwtMTczMT
+U3MzQ3NywtMTA2Nzc3Mzk2LDE4NDY2NTMyMTcsMTU3NjIwNjI2
+MSwtMzgyNTA3MTY5XX0=
 -->
