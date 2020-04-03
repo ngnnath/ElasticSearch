@@ -28,10 +28,9 @@ Réponse :
         "minimum_wire_compatibility_version" : "6.8.0",
         "minimum_index_compatibility_version" : "6.0.0-beta1"
       }
-2 appel possible via deux port
-Java API sur le port 9300
-Restful API sur le port 9200
+2 appels possible à Elastic Search via deux ports :
+avec Java API sur le port 9300 et Restful API sur le port 9200
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTgzODI0MzIsMTU3NjIwNjI2MSwtMz
-gyNTA3MTY5XX0=
+eyJoaXN0b3J5IjpbMTg0NjY1MzIxNywxNTc2MjA2MjYxLC0zOD
+I1MDcxNjldfQ==
 -->
