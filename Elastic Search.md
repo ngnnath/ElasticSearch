@@ -71,15 +71,18 @@ Reponse
       }
     }
     
-    SEARCH
+   SEARCH
 
     curl -XGET 'localhost:9200/megacorp/employee/_search?pretty'
 Renvoie tous documents dont le type est employee.
 
     curl -XGET 'localhost:9200/megacorp/employee/_search?q=last_name:Smith&pretty'
-Recherche toutes 
+Recherche les documents de type employee dont le last_name est égale à smith
+
+FILTER
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyOTA2OTc4LC0xNzMxNTczNDc3LC0xMD
-Y3NzczOTYsMTg0NjY1MzIxNywxNTc2MjA2MjYxLC0zODI1MDcx
-NjldfQ==
+eyJoaXN0b3J5IjpbLTg2NTY5MzkwMiwtMTczMTU3MzQ3NywtMT
+A2Nzc3Mzk2LDE4NDY2NTMyMTcsMTU3NjIwNjI2MSwtMzgyNTA3
+MTY5XX0=
 -->
