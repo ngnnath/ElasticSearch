@@ -102,8 +102,11 @@ Connaitre le type des champs
 
     curl -XGET 'localhost:9200/megacorp/_mapping/employee?include_type_name=true&pretty'
 
+## Cluster
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTM0NzAxNTksLTEzOTQzMTQ4NTcsMz
+eyJoaXN0b3J5IjpbLTE2NTEyODAyODcsLTEzOTQzMTQ4NTcsMz
 A1Njc3MjIwLC0xNzMxNTczNDc3LC0xMDY3NzczOTYsMTg0NjY1
 MzIxNywxNTc2MjA2MjYxLC0zODI1MDcxNjldfQ==
 -->
