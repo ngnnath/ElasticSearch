@@ -104,10 +104,10 @@ Connaitre le type des champs
 
 ## Cluster
 
-M
+NEXT STEP MONTER UN CLUSTER 
+[https://2014.rmll.info/slides/343/rmll2014_elasticsearch_rpignolet.pdf](https://2014.rmll.info/slides/343/rmll2014_elasticsearch_rpignolet.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDY0MTc2NiwtMTY1MTI4MDI4NywtMT
-M5NDMxNDg1NywzMDU2NzcyMjAsLTE3MzE1NzM0NzcsLTEwNjc3
-NzM5NiwxODQ2NjUzMjE3LDE1NzYyMDYyNjEsLTM4MjUwNzE2OV
-19
+eyJoaXN0b3J5IjpbNTg4MzAzMywtMTY1MTI4MDI4NywtMTM5ND
+MxNDg1NywzMDU2NzcyMjAsLTE3MzE1NzM0NzcsLTEwNjc3NzM5
+NiwxODQ2NjUzMjE3LDE1NzYyMDYyNjEsLTM4MjUwNzE2OV19
 -->
