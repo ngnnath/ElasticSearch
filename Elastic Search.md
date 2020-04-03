@@ -8,7 +8,26 @@ Elasticsearch est un serveur utilisant Lucene pour l'indexation et la recherche 
 Lancement d'ElasticSearch
 
     ./bin/elasticsearch
+Verifier le status :
+
+    curl 'http://localhost:9200/?pretty'
+
+      {"name" : "osboxes",
+      "cluster_name" : "elasticsearch",
+      "cluster_uuid" : "E8EdpiDwSs2GCW6b-HOy-g",
+      "version" : {
+        "number" : "7.6.2",
+        "build_flavor" : "default",
+        "build_type" : "tar",
+        "build_hash" : "ef48eb35cf30adf4db14086e8aabd07ef6fb113f",
+        "build_date" : "2020-03-26T06:34:37.794943Z",
+        "build_snapshot" : false,
+        "lucene_version" : "8.4.0",
+        "minimum_wire_compatibility_version" : "6.8.0",
+        "minimum_index_compatibility_version" : "6.0.0-beta1"
+      }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NjIwNjI2MSwtMzgyNTA3MTY5XX0=
+eyJoaXN0b3J5IjpbNzY1NzMxOTYyLDE1NzYyMDYyNjEsLTM4Mj
+UwNzE2OV19
 -->
