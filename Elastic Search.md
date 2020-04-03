@@ -12,6 +12,8 @@ Verifier le status :
 
     curl 'http://localhost:9200/?pretty'
 
+Réponse :
+
       {"name" : "osboxes",
       "cluster_name" : "elasticsearch",
       "cluster_uuid" : "E8EdpiDwSs2GCW6b-HOy-g",
@@ -26,8 +28,10 @@ Verifier le status :
         "minimum_wire_compatibility_version" : "6.8.0",
         "minimum_index_compatibility_version" : "6.0.0-beta1"
       }
-
+2 appel possible via deux port
+Java API sur le port 9300
+Restful API sur le port 9200
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1NzMxOTYyLDE1NzYyMDYyNjEsLTM4Mj
-UwNzE2OV19
+eyJoaXN0b3J5IjpbLTE1NTgzODI0MzIsMTU3NjIwNjI2MSwtMz
+gyNTA3MTY5XX0=
 -->
