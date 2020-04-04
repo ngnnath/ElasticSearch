@@ -106,8 +106,12 @@ Connaitre le type des champs
 
 NEXT STEP MONTER UN CLUSTER 
 [https://2014.rmll.info/slides/343/rmll2014_elasticsearch_rpignolet.pdf](https://2014.rmll.info/slides/343/rmll2014_elasticsearch_rpignolet.pdf)
+
+
+https://markheath.net/post/exploring-elasticsearch-with-docker
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4MzAzMywtMTY1MTI4MDI4NywtMTM5ND
-MxNDg1NywzMDU2NzcyMjAsLTE3MzE1NzM0NzcsLTEwNjc3NzM5
-NiwxODQ2NjUzMjE3LDE1NzYyMDYyNjEsLTM4MjUwNzE2OV19
+eyJoaXN0b3J5IjpbLTQ1MTYzOTk0OCw1ODgzMDMzLC0xNjUxMj
+gwMjg3LC0xMzk0MzE0ODU3LDMwNTY3NzIyMCwtMTczMTU3MzQ3
+NywtMTA2Nzc3Mzk2LDE4NDY2NTMyMTcsMTU3NjIwNjI2MSwtMz
+gyNTA3MTY5XX0=
 -->
