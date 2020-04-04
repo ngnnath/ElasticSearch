@@ -103,15 +103,13 @@ Connaitre le type des champs
     curl -XGET 'localhost:9200/megacorp/_mapping/employee?include_type_name=true&pretty'
 
 ## Cluster
-
-NEXT STEP MONTER UN CLUSTER 
 [https://2014.rmll.info/slides/343/rmll2014_elasticsearch_rpignolet.pdf](https://2014.rmll.info/slides/343/rmll2014_elasticsearch_rpignolet.pdf)
 
 
 https://markheath.net/post/exploring-elasticsearch-with-docker
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTYzOTk0OCw1ODgzMDMzLC0xNjUxMj
-gwMjg3LC0xMzk0MzE0ODU3LDMwNTY3NzIyMCwtMTczMTU3MzQ3
-NywtMTA2Nzc3Mzk2LDE4NDY2NTMyMTcsMTU3NjIwNjI2MSwtMz
-gyNTA3MTY5XX0=
+eyJoaXN0b3J5IjpbLTI0ODEwMjY1NSwtNDUxNjM5OTQ4LDU4OD
+MwMzMsLTE2NTEyODAyODcsLTEzOTQzMTQ4NTcsMzA1Njc3MjIw
+LC0xNzMxNTczNDc3LC0xMDY3NzczOTYsMTg0NjY1MzIxNywxNT
+c2MjA2MjYxLC0zODI1MDcxNjldfQ==
 -->
