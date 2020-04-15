@@ -66,20 +66,20 @@ GET
 
     curl -XGET 'localhost :9200/ megacorp / employee /1? pretty '
     
-Reponse
-    {
-      "_index" : "megacorp",
-      "_type" : "employee",
-      "_id" : "1",
-      "_version" : 1,
-      "_seq_no" : 0,
-      "_primary_term" : 1,
-      "found" : true,
-      "_source" : {
-        "first_name" : "Nath",
-        "last_name" : "Ngn"
-      }
-    }
+    Reponse
+        {
+          "_index" : "megacorp",
+          "_type" : "employee",
+          "_id" : "1",
+          "_version" : 1,
+          "_seq_no" : 0,
+          "_primary_term" : 1,
+          "found" : true,
+          "_source" : {
+            "first_name" : "Nath",
+            "last_name" : "Ngn"
+          }
+        }
     
 SEARCH
 
@@ -108,8 +108,8 @@ Connaitre le type des champs
 
 https://markheath.net/post/exploring-elasticsearch-with-docker
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODEwMjY1NSwtNDUxNjM5OTQ4LDU4OD
-MwMzMsLTE2NTEyODAyODcsLTEzOTQzMTQ4NTcsMzA1Njc3MjIw
-LC0xNzMxNTczNDc3LC0xMDY3NzczOTYsMTg0NjY1MzIxNywxNT
-c2MjA2MjYxLC0zODI1MDcxNjldfQ==
+eyJoaXN0b3J5IjpbLTE1NzAxNTY1NDMsLTI0ODEwMjY1NSwtND
+UxNjM5OTQ4LDU4ODMwMzMsLTE2NTEyODAyODcsLTEzOTQzMTQ4
+NTcsMzA1Njc3MjIwLC0xNzMxNTczNDc3LC0xMDY3NzczOTYsMT
+g0NjY1MzIxNywxNTc2MjA2MjYxLC0zODI1MDcxNjldfQ==
 -->
