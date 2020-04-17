@@ -107,10 +107,14 @@ Connaitre le type des champs
 
 
 https://markheath.net/post/exploring-elasticsearch-with-docker
+
+
+curl -XGET 'localhost:9200/test-index/_doc/1?pretty'
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTE0NTcxNywtMTU3MDE1NjU0MywtMj
-Q4MTAyNjU1LC00NTE2Mzk5NDgsNTg4MzAzMywtMTY1MTI4MDI4
-NywtMTM5NDMxNDg1NywzMDU2NzcyMjAsLTE3MzE1NzM0NzcsLT
-EwNjc3NzM5NiwxODQ2NjUzMjE3LDE1NzYyMDYyNjEsLTM4MjUw
-NzE2OV19
+eyJoaXN0b3J5IjpbMzkwOTI3NDA3LC04NzkxNDU3MTcsLTE1Nz
+AxNTY1NDMsLTI0ODEwMjY1NSwtNDUxNjM5OTQ4LDU4ODMwMzMs
+LTE2NTEyODAyODcsLTEzOTQzMTQ4NTcsMzA1Njc3MjIwLC0xNz
+MxNTczNDc3LC0xMDY3NzczOTYsMTg0NjY1MzIxNywxNTc2MjA2
+MjYxLC0zODI1MDcxNjldfQ==
 -->
