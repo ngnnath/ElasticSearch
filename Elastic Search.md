@@ -111,10 +111,16 @@ https://markheath.net/post/exploring-elasticsearch-with-docker
 
 curl -XGET 'localhost:9200/test-index/_doc/1?pretty'
 
+
+Avec la lib elastic 
+
+    res = es.index(index="megacorp", id=1,doc_type="employee", body=doc)
+
+Il faut que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwOTI3NDA3LC04NzkxNDU3MTcsLTE1Nz
-AxNTY1NDMsLTI0ODEwMjY1NSwtNDUxNjM5OTQ4LDU4ODMwMzMs
-LTE2NTEyODAyODcsLTEzOTQzMTQ4NTcsMzA1Njc3MjIwLC0xNz
-MxNTczNDc3LC0xMDY3NzczOTYsMTg0NjY1MzIxNywxNTc2MjA2
-MjYxLC0zODI1MDcxNjldfQ==
+eyJoaXN0b3J5IjpbMTc4NjE2NTY4MiwzOTA5Mjc0MDcsLTg3OT
+E0NTcxNywtMTU3MDE1NjU0MywtMjQ4MTAyNjU1LC00NTE2Mzk5
+NDgsNTg4MzAzMywtMTY1MTI4MDI4NywtMTM5NDMxNDg1NywzMD
+U2NzcyMjAsLTE3MzE1NzM0NzcsLTEwNjc3NzM5NiwxODQ2NjUz
+MjE3LDE1NzYyMDYyNjEsLTM4MjUwNzE2OV19
 -->
